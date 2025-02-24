@@ -25,15 +25,18 @@ public class MataKuliah03{
 
     public void ubahSKS(int sksBaru) {
         this.sks = sksBaru;
+        System.out.println("SKS telah diubah menjadi: " + this.sks);
     }
 
     public void tambahJam(int jam) {
         this.jumlahJam += jam;
+        System.out.println("Jumlah jam berhasil ditambahkan. Sekarang menjadi: " + this.jumlahJam);
     }
 
     public void kurangiJam(int jam) {
         if (this.jumlahJam - jam >= 0) {
             this.jumlahJam -= jam;
+            System.out.println("Jumlah jam berhasil dikurangi. Sekarang menjadi: " + this.jumlahJam);
         } else {
             System.out.println("Jumlah jam tidak bisa kurang dari 0!");
         }
