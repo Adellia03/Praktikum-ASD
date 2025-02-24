@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class MahasiswaMain03{
     public static void main(String[] args){
+        Mahasiswa03 mhsAdellia = new Mahasiswa03("Adellia Salsa Al Barra", "224107020222", 3.50, "TI 1B");
+        mhsAdellia.tampilkanInformasi();
+
         Mahasiswa03 mhs1 = new Mahasiswa03 ();
         mhs1.nama = "Muhammad Ali Farhan";
         mhs1.nim = "2241720171";
