@@ -24,9 +24,14 @@ public class DosenDemo03{
             System.out.println("-----------------------------------");
         }
 
-        for (int i = 0; i < jumlahDosen; i++) {
-            System.out.println("Data Dosen ke-" + (i + 1));
-            arrayOfDosen[i].tampilkanInfo();
-        }
+        System.out.println("===================================");
+        System.out.println("         HASIL DATA DOSEN          ");
+        System.out.println("===================================");
+
+        DataDosen03.dataSemuaDosen(arrayOfDosen);
+        DataDosen03.jumlahDosenPerJenisKelamin(arrayOfDosen);
+        DataDosen03.rerataUsiaDosenPerJenisKelamin(arrayOfDosen);
+        DataDosen03.infoDosenPalingTua(arrayOfDosen);
+        DataDosen03.infoDosenPalingMuda(arrayOfDosen);
     }
-}
+    }
